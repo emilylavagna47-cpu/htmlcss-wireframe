@@ -1,1 +1,78 @@
 /* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 512px;
+    border: dashed gray 1px;
+    background-color: #F5F5F5;
+}
+
+.header {
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #2C3E50;
+}
+
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+.card {
+    min-height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.pic {
+    max-height: 50px;
+    border: 2px solid #314979;
+}
+
+.card h2 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #314979;
+}
+
+.card p {
+    font-family: Arial, sans-serif;
+    color: #444444;
+    padding-top: 5px;
+}
+
+.footer {
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #34495E;
+}
+
+.footer p {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
